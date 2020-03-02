@@ -47,12 +47,12 @@ func main() {
 		"uri",
 		"username",
 		"password",
-		gogm.NONE,
-		false}
+		gogm.NONE/*log level*/,
+		false/*allow cyclic ref*/}
 
 	var ogm = gogm.New(config)
 
-	var session, err = ogm.NewSession(true)
+	var session, err = ogm.NewSession(true/*isWriteMode*/)
 	if err != nil {
 		panic(err)
 	}

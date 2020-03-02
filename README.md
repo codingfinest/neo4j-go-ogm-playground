@@ -1,4 +1,4 @@
-This project give developers a very quick start with learning https://github.com/codingfinest/neo4j-go-ogm
+This project give developers a very quick start with learning [neo4j-go-ogm](https://github.com/codingfinest/neo4j-go-ogm)
 
 Steps:
 

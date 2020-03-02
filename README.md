@@ -3,8 +3,8 @@ This project give developers a very quick start with learning https://github.com
 Steps:
 
 1) Clone this repository
-2) Setup an environment for Neo4j Go driver as descibed here
-) Start your Neo4j database instance
+2) Setup the requirement for Neo4j Go driver as descibed [here](https://github.com/neo4j/neo4j-go-driver#requirements-1)
+3) Start your Neo4j database instance
 2) Update the `main.go` file with database `url`, `username` and `password`
 4) Run program with `go run main.go`
 
